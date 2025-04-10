@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "firebasecrudapp"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "firebasecrudapp-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
